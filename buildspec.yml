@@ -3,6 +3,7 @@ phases:
   install:
     commands:
       - REPOSITORY_URI=918462768359.dkr.ecr.us-east-1.amazonaws.com/medium.blog
+      - CODEBUILD_BUILD_NUMBER=Latest
   pre_build:
     commands:
       - echo Logging starting build ...
